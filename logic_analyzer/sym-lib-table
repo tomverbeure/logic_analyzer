@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "logic_analyzer")(type "KiCad")(uri "${KIPRJMOD}/logic_analyzer.kicad_sym")(options "")(descr ""))
+)
