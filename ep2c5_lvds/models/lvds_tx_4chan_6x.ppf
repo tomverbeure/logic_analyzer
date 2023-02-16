@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pinplan>
+<pinplan intended_family="Cyclone II" variation_name="lvds_tx_4chan_6x" megafunction_name="ALTLVDS_TX" specifies="all_ports">
+<global>
+<pin name="tx_in[23..0]" direction="input" scope="external"  />
+<pin name="tx_inclock" direction="input" scope="external"  />
+<pin name="tx_locked" direction="output" scope="external"  />
+<pin name="tx_out[3..0]" direction="output" scope="external"  />
+
+</global>
+</pinplan>
