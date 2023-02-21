@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "logic_analyzer")(type "KiCad")(uri "${KIPRJMOD}/logic_analyzer.kicad_sym")(options "")(descr ""))
+  (lib (name "logic_analyzer")(type "KiCad")(uri "/home/tom/projects/logic_analyzer/logic_analyzer/logic_analyzer.kicad_sym")(options "")(descr ""))
   (lib (name "Intel_FPGA")(type "KiCad")(uri "/home/tom/projects/logic_analyzer/intel2symgen/Intel_FPGA.kicad_sym")(options "")(descr ""))
 )
