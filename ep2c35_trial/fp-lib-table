@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "logic_analyzer")(type "KiCad")(uri "/home/tom/projects/logic_analyzer/logic_analyzer/logic_analyzer.pretty")(options "")(descr ""))
+)

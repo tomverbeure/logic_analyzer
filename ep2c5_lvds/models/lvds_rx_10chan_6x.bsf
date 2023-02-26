@@ -1,0 +1,64 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 272 96)
+	(text "lvds_rx_10chan_6x" (rect 46 7 195 24)(font "Dialog" (font_size 10)))
+	(text "inst" (rect 8 81 26 92)(font "Arial" ))
+	(port
+		(pt 0 48)
+		(input)
+		(text "rx_in[9..0]" (rect 0 0 66 13)(font "Dialog" (font_size 8)))
+		(text "rx_in[9..0]" (rect 4 35 58 47)(font "Dialog" (font_size 8)))
+		(line (pt 0 48)(pt 96 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "rx_inclock" (rect 0 0 66 13)(font "Dialog" (font_size 8)))
+		(text "rx_inclock" (rect 4 51 59 63)(font "Dialog" (font_size 8)))
+		(line (pt 0 64)(pt 96 64))
+	)
+	(port
+		(pt 272 48)
+		(output)
+		(text "rx_out[59..0]" (rect 0 0 82 13)(font "Dialog" (font_size 8)))
+		(text "rx_out[59..0]" (rect 175 35 244 47)(font "Dialog" (font_size 8)))
+		(line (pt 272 48)(pt 160 48)(line_width 3))
+	)
+	(port
+		(pt 272 64)
+		(output)
+		(text "rx_outclock" (rect 0 0 74 13)(font "Dialog" (font_size 8)))
+		(text "rx_outclock" (rect 184 51 247 63)(font "Dialog" (font_size 8)))
+		(line (pt 272 64)(pt 160 64))
+	)
+	(drawing
+		(line (pt 96 32)(pt 160 32))
+		(line (pt 160 32)(pt 160 80))
+		(line (pt 96 80)(pt 160 80))
+		(line (pt 96 32)(pt 96 80))
+		(line (pt 0 0)(pt 272 0))
+		(line (pt 272 0)(pt 272 96))
+		(line (pt 0 96)(pt 272 96))
+		(line (pt 0 0)(pt 0 96))
+	)
+)
