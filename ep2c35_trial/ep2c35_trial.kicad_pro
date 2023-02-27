@@ -370,7 +370,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.1016,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.088646,
@@ -382,6 +382,7 @@
           "/LVDS_RX_CLK0_N",
           "/LVDS_RX_CLK0_P",
           "/LVDS_RX_CLK1_N",
+          "/LVDS_RX_CLK1_P",
           "/LVDS_RX_DATA0_0_N",
           "/LVDS_RX_DATA0_0_P",
           "/LVDS_RX_DATA0_1_N",
@@ -421,7 +422,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.088646,
         "via_diameter": 0.46,
         "via_drill": 0.2,
         "wire_width": 6.0
@@ -437,11 +438,14 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "+1V0",
           "+1V2",
           "+1V2A",
           "+2V5",
           "+3.3V",
-          "GNDA",
+          "/USB_SHIELD",
+          "/VBUS",
+          "/VBUS_RAW",
           "GNDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

@@ -1,0 +1,218 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "GSB343K331HR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -5.08 16.51 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "GSB343K331HR" (id 1) (at -5.08 -20.32 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "AMPHENOL_GSB343K331HR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "2.8 mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SNAPEDA_PN" "GSB343K331HR" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "E" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Amphenol" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "GSB343K331HR_0_0"
+      (polyline
+        (pts (xy 5.08 13.97) (xy 3.81 15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 13.97) (xy 5.08 12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 12.7) (xy 5.08 -16.51)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -16.51) (xy 3.81 -17.78)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -17.78) (xy -5.08 -17.78)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -17.78) (xy -5.08 15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 15.24) (xy 3.81 15.24)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 12.7) (xy 3.81 12.7)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 12.065) (mid 3.81 12.7) (end 3.175 13.335)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 10.16) (xy 3.81 10.16)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 9.525) (mid 3.81 10.16) (end 3.175 10.795)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 7.62) (xy 3.81 7.62)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 6.985) (mid 3.81 7.62) (end 3.175 8.255)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 3.81 5.08)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 4.445) (mid 3.81 5.08) (end 3.175 5.715)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 3.81 2.54)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 1.905) (mid 3.81 2.54) (end 3.175 3.175)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy 3.81 0.0)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 -0.635) (mid 3.81 0.0) (end 3.175 0.635)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 3.81 -2.54)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 -3.175) (mid 3.81 -2.54) (end 3.175 -1.905)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 3.81 -5.08)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 -5.715) (mid 3.81 -5.08) (end 3.175 -4.445)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -7.62) (xy 3.81 -7.62)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 -8.255) (mid 3.81 -7.62) (end 3.175 -6.985)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -10.16) (xy 3.81 -10.16)) (stroke (width 0.254))
+      )
+      (arc (start 3.175 -10.795) (mid 3.81 -10.16) (end 3.175 -9.525)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin passive line (at 10.16 12.7 180.0) (length 5.08)
+        (name "1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 10.16 180.0) (length 5.08)
+        (name "2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 7.62 180.0) (length 5.08)
+        (name "3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08)
+        (name "4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 2.54 180.0) (length 5.08)
+        (name "5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -2.54 180.0) (length 5.08)
+        (name "7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -7.62 180.0) (length 5.08)
+        (name "9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -10.16 180.0) (length 5.08)
+        (name "10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -15.24 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -15.24 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

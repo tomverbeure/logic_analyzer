@@ -1,4 +1,11 @@
-20800489109363187
+20803842946624439
+Amphenol_GSB343K331HR
+AMPHENOL_GSB343K331HR
+
+
+0
+12
+12
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -87107,6 +87114,13 @@ varistor
 0
 2
 2
+logic_analyzer
+3M_8540-4500PL
+Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x20 2.54mm double row
+0
+40
+40
 logic_analyzer
 QFN-56-1EP_7x7mm_P0.4mm_FT600Q
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
