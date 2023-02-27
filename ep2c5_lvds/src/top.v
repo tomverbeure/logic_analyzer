@@ -12,7 +12,8 @@ module top(
 	 
     output          dummy0,
     output          dummy1,
-	 
+
+/*	 
     inout   [15:0]  ddr_dq,
     output  [1:0]   ddr_dqs,
     output  [1:0]   ddr_dm,
@@ -25,7 +26,8 @@ module top(
     output  [0:0]   ddr_cs_n,
     output  [0:0]   clk_to_sdram,
     output  [0:0]   clk_to_sdram_n,
-	 
+*/	
+	
 	 input 				ft_clk,
 	 inout 	[15:0]	ft_data,
 	 inout	[1:0]		ft_be,

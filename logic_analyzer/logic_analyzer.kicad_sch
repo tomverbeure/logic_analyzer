@@ -776,7 +776,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7d9bc282-171a-4e07-b74d-544d00f44805)
   )
-  (wire (pts (xy 57.15 120.65) (xy 72.39 120.65))
+  (wire (pts (xy 59.69 120.65) (xy 72.39 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7ffcfa3d-9291-410c-bf10-abbc74ab80bf)
   )
@@ -904,7 +904,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d6bf1365-7a2b-47a6-897b-0489313339f9)
   )
-  (wire (pts (xy 57.15 146.05) (xy 72.39 146.05))
+  (wire (pts (xy 59.69 146.05) (xy 72.39 146.05))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d6ea89fe-4094-4050-823e-5f8a417e1661)
   )
@@ -977,10 +977,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1811c241-1455-4320-9579-1587881f63e2)
   )
-  (label "POD_CLK" (at 60.96 146.05 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 20a79ea9-52a8-436a-bc89-4f19ae03dea6)
-  )
   (label "POD_D1" (at 60.96 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2180bccc-a4eb-44f5-b36c-c348ac89addb)
@@ -993,13 +989,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 288c9f93-a47c-4b47-9e95-49935f37d364)
   )
-  (label "POD_CLK" (at 60.96 120.65 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2a4e08ed-3337-4bbe-b615-12642d54aaad)
-  )
   (label "POD_D3" (at 40.64 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b9b82f1-9344-44ae-a6db-77e9b58f887b)
+  )
+  (label "Voff_buf" (at 60.96 120.65 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2c2325aa-e794-4900-b41e-2ce82886b0e2)
   )
   (label "POD_D14" (at 40.64 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1028,6 +1024,10 @@
   (label "POD_D0" (at 60.96 142.24 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5fb9f720-5789-4753-a82e-0e8d2da6b462)
+  )
+  (label "Voff_buf" (at 60.96 146.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 60734b5a-7cf9-4dfc-b340-1cf45540c584)
   )
   (label "POD_D15" (at 40.64 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1707,25 +1707,25 @@
     (path "/26454115-225f-4e87-8a6c-cb4f8b4d98fa/30034b0c-696c-42cd-888e-2d41cbf9bb9f"
       (reference "#PWR059") (unit 1) (value "GNDD") (footprint "")
     )
-    (path "/26454115-225f-4e87-8a6c-cb4f8b4d98fa/1be7da6b-fbf6-47e4-8e75-b0a9902ab227"
+    (path "/7ddedb78-112d-4441-8e1b-67fe311493d9/1be7da6b-fbf6-47e4-8e75-b0a9902ab227"
       (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
     )
     (path "/2e028959-4a26-46e7-9f55-db9d44f14998/1be7da6b-fbf6-47e4-8e75-b0a9902ab227"
       (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
     )
+    (path "/26454115-225f-4e87-8a6c-cb4f8b4d98fa/1be7da6b-fbf6-47e4-8e75-b0a9902ab227"
+      (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
+    )
     (path "/1f432fef-ef5d-4967-b3ea-d12b8a8ee2d0/1be7da6b-fbf6-47e4-8e75-b0a9902ab227"
       (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
     )
-    (path "/7ddedb78-112d-4441-8e1b-67fe311493d9/1be7da6b-fbf6-47e4-8e75-b0a9902ab227"
-      (reference "#PWR?") (unit 1) (value "-5VA") (footprint "")
+    (path "/7ddedb78-112d-4441-8e1b-67fe311493d9/7a2ea4ea-d61b-43f7-a9da-f8e5dab3abe4"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/26454115-225f-4e87-8a6c-cb4f8b4d98fa/7a2ea4ea-d61b-43f7-a9da-f8e5dab3abe4"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/1f432fef-ef5d-4967-b3ea-d12b8a8ee2d0/7a2ea4ea-d61b-43f7-a9da-f8e5dab3abe4"
-      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
-    )
-    (path "/7ddedb78-112d-4441-8e1b-67fe311493d9/7a2ea4ea-d61b-43f7-a9da-f8e5dab3abe4"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
     )
     (path "/2e028959-4a26-46e7-9f55-db9d44f14998/7a2ea4ea-d61b-43f7-a9da-f8e5dab3abe4"

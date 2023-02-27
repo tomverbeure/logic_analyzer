@@ -131,7 +131,7 @@ set_global_assignment -name IOBANK_VCCIO 2.5V -section_id 7
 set_global_assignment -name IOBANK_VCCIO 2.5V -section_id 5
 set_location_assignment PIN_M22 -to lvds_rx_clk1
 set_location_assignment PIN_M21 -to "lvds_rx_clk1(n)"
-set_location_assignment PIN_E1 -to lvds_tx_locked
+set_location_assignment PIN_A15 -to lvds_tx_locked
 set_location_assignment PIN_AB10 -to lvds_tx_out[0]
 set_location_assignment PIN_AA10 -to "lvds_tx_out[0](n)"
 set_location_assignment PIN_AB9 -to lvds_tx_out[1]
@@ -140,12 +140,45 @@ set_location_assignment PIN_AB8 -to lvds_tx_out[2]
 set_location_assignment PIN_AA8 -to "lvds_tx_out[2](n)"
 set_location_assignment PIN_AB7 -to lvds_tx_out[3]
 set_location_assignment PIN_AA7 -to "lvds_tx_out[3](n)"
-set_location_assignment PIN_G1 -to dummy0
-set_location_assignment PIN_F1 -to dummy1
+set_location_assignment PIN_A14 -to dummy0
+set_location_assignment PIN_A16 -to dummy1
 set_global_assignment -name IOBANK_VCCIO 2.5V -section_id 6
 set_location_assignment PIN_A12 -to clk50
 
 source "ddr_pinout.tcl"
 
 
+set_location_assignment PIN_B7 -to ft_data[15]
+set_location_assignment PIN_A7 -to ft_data[14]
+set_location_assignment PIN_B6 -to ft_data[13]
+set_location_assignment PIN_A6 -to ft_data[12]
+set_location_assignment PIN_B5 -to ft_data[11]
+set_location_assignment PIN_A5 -to ft_data[10]
+set_location_assignment PIN_B4 -to ft_data[9]
+set_location_assignment PIN_A4 -to ft_data[8]
+set_location_assignment PIN_B3 -to ft_clk
+set_location_assignment PIN_A3 -to ft_data[7]
+set_location_assignment PIN_C2 -to ft_data[6]
+set_location_assignment PIN_C1 -to ft_data[5]
+set_location_assignment PIN_D2 -to ft_data[4]
+set_location_assignment PIN_D1 -to ft_data[3]
+set_location_assignment PIN_E2 -to ft_data[2]
+set_location_assignment PIN_E1 -to ft_data[1]
+set_location_assignment PIN_F2 -to ft_data[0]
+set_location_assignment PIN_A8 -to ft_be[0]
+set_location_assignment PIN_B8 -to ft_be[1]
+set_location_assignment PIN_A9 -to ft_txe_n
+set_location_assignment PIN_B9 -to ft_rxf_n
+set_location_assignment PIN_B10 -to ft_rd_n
+set_location_assignment PIN_A11 -to ft_oe_n
+set_location_assignment PIN_B11 -to ft_reset_n
+set_location_assignment PIN_A10 -to ft_wr_n
+set_location_assignment PIN_C9 -to ft_gpio[0]
+set_location_assignment PIN_D9 -to ft_gpio[1]
+set_location_assignment PIN_D11 -to ft_wakeup_n
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_CHECKING ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "USE AS REGULAR IO"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
