@@ -66,3 +66,13 @@
 * Direct heat reballing (using my jig): https://youtu.be/VTAU647jzzk?t=598
 * EP2C35 on AliExpress: https://www.aliexpress.us/item/3256804913471850.html
 * 3-in-1 desoldering station: https://www.aliexpress.us/item/3256803049300994.html
+
+# Various
+
+* [Schematic of RISC-V board that uses FT601Q](http://riskfive.com/RiskFive_devel_rev0_board_July_24_2018.pdf)
+
+    * Uses the Xtal that I selected.
+    * Uses 25MHz oscillator
+    
+
+    
