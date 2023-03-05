@@ -1,14 +1,16 @@
 
 module top(
     input           clk50,
-	input   [7:0]   lvds_rx_in0,
+	 input   [7:0]   lvds_rx_in0,
     input           lvds_rx_fclk0,
     input           lvds_rx_clk0,
-	input   [7:0]   lvds_rx_in1,
+	 input   [7:0]   lvds_rx_in1,
     input           lvds_rx_fclk1,
     input           lvds_rx_clk1,
     output          lvds_tx_locked,
     output  [3:0]   lvds_tx_out,
+	 input   [15:0]  dig_input,
+	 input           dig_clk, 
 	 
     output          dummy0,
     output          dummy1,
