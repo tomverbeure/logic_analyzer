@@ -85,7 +85,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -467,8 +467,7 @@
         "nets": [
           "/3V3_LDO",
           "/VBUS",
-          "/VBUS_RAW",
-          "GNDD"
+          "/VBUS_RAW"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -540,10 +539,6 @@
     [
       "356d4cfa-ff83-48ca-a7a2-6ee95192b9d7",
       ""
-    ],
-    [
-      "16b08731-4b93-41eb-86dd-eb6e72f85375",
-      "EP2C35"
     ]
   ],
   "text_variables": {}
