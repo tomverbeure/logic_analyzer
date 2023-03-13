@@ -67,6 +67,31 @@
 * EP2C35 on AliExpress: https://www.aliexpress.us/item/3256804913471850.html
 * 3-in-1 desoldering station: https://www.aliexpress.us/item/3256803049300994.html
 
+# Impedance
+
+* [JLCPCB impedance calculator](https://cart.jlcpcb.com/impedanceCalculation)
+
+    * Impedance + trace space
+    * Impedance value: 100 Ohm
+    * 4-layer
+    * thickness: 1.6mm
+    * outer layer (micro-strip)
+    * impedance type: differential
+    * trace space: 4 mil
+    * Result: 
+        * JLC3313: 3.49mil  <- chosen
+        * JLC7628: 4.96mil
+    * Controled impedance PCBs: https://jlcpcb.com/impedance
+        * JLC3313
+            * Prereg dielectric constant: 4.05
+            * Solder mask dielectric constant: 3.8
+            * Solder maks thickness: 0.8mil
+    
+# JLCPCB Plugin
+
+* [Bouni/kicad-jlcpcb-tools](https://github.com/Bouni/kicad-jlcpcb-tools)
+
+
 # Various
 
 * [Schematic of RISC-V board that uses FT601Q](http://riskfive.com/RiskFive_devel_rev0_board_July_24_2018.pdf)
