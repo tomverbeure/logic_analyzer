@@ -90,6 +90,9 @@
 # JLCPCB Plugin
 
 * [Bouni/kicad-jlcpcb-tools](https://github.com/Bouni/kicad-jlcpcb-tools)
+* Basic LCSC chips:
+    * ESD: SRV05-4-P-T7
+    * Voltage inverter: [ICL7660AIBAZA-T](https://www.lcsc.com/product-detail/DC-DC-Converters_RENESAS-ICL7660AIBAZA-T_C7881.html)
 
 
 # Various
@@ -101,6 +104,5 @@
     
 * ESD
 
-    * SRV05-4-P-T7: Basic LCSC Part
 
     
