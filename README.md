@@ -99,5 +99,8 @@
     * Uses the Xtal that I selected.
     * Uses 25MHz oscillator
     
+* ESD
+
+    * SRV05-4-P-T7: Basic LCSC Part
 
     
