@@ -18,7 +18,7 @@
 
 * [Cyclone® II Device Handbook, Volume 1, Chapter 11: High-Speed Differential Interfaces in Cyclone II Devices](https://www.intel.com/content/www/us/en/content-details/655206/cyclone-ii-device-handbook-volume-1-chapter-11-high-speed-differential-interfaces-in-cyclone-ii-devices.html)
 
-    * RX max 805 Mpbs, TX max 640 Mpbs.
+    * RX max 805 Mbps, TX max 640 Mbps.
     * No Vref needed
     * 100 Ohm termination resistor at RX input buffer.
     * (De)serialization is done in core logic.
@@ -47,6 +47,13 @@
 
 * [TI - LVDS Owner’s Manual](https://www.ti.com/lit/ug/snla187/snla187.pdf)
 
+* [LMH7220 - High Speed Comparator with LVDS Outpu](https://www.ti.com/lit/ds/symlink/lmh7322.pdf)
+
+    ~$6 a piece.
+
+* [MAX40025CAWT+T - 280ps High-Speed Comparator, Ultra-Low Dispersion with LVDS Outputs](https://www.mouser.com/datasheet/2/609/MAX40025A_MAX40026-3128703.pdf)
+
+    ~$4.4 a piece for 25+.
 
 # Soldering
 
@@ -95,6 +102,7 @@
     * Voltage inverter: [ICL7660AIBAZA-T](https://www.lcsc.com/product-detail/DC-DC-Converters_RENESAS-ICL7660AIBAZA-T_C7881.html)
 
 
+
 # Various
 
 * [Schematic of RISC-V board that uses FT601Q](http://riskfive.com/RiskFive_devel_rev0_board_July_24_2018.pdf)
@@ -102,7 +110,12 @@
     * Uses the Xtal that I selected.
     * Uses 25MHz oscillator
     
-* ESD
+* ESD info
+    * [Littelfuse technical resources](https://www.littelfuse.com/products/tvs-diodes.aspx)
+    * USB SS ESD: 
+        * [Nexperia PUSB3AB4](https://www.digikey.com/en/products/detail/nexperia-usa-inc/PUSB3AB4Z/6575997)
+        * [DigiKey search](https://www.digikey.com/en/products/filter/transient-voltage-suppressors-tvs/tvs-diodes/144?s=N4IgjCBcoKwGxyqAxlAZgQwDYGcCmANCAPZQDaIAnDAAyJFwAsYLlIRYjNNATO%2BGBowAHPxaMA7DX6NhMGM35Mw8Nhx4BmHmvCaN0jvsYaxG2jrAbKPCUubxRHCZVljntN9RMdZNsTBV6cHlNO0DbDiYJGDE4Z0dwCTBhb0T5BLAJYWiZOACNBJ5k7RAAXSIABwAXKBAAZSqAJwBLADsAcxAAXyIJOAhoEFRITFxCEnIQBBpKK34pGg0zMR4aYWEDEFkpCCJ5BUYlFhFY7JL1GE0I8C0aFVNVmmvLfok%2BQ1fN1Z44fX5vuB%2BJzMHjvRLMe5OX6UXaJCRcGJOeE0Q5EUFyJ7-NaXQrYniokBFNarf6MGEpUkwpJlSo1SD1JptTo9RJ-QbDUb4IikSAUWFg1IExFTeb8DIxcogaq1ACSrSqeHaeEa3Q4lGEbHZ6GwXImvJA0lKXWNQA)
+    * [Low capacitance 1-channel bidirectional diode: PESD5V0H1BSNYL](https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD5V0H1BSNYL/12808361)
 
 
     
