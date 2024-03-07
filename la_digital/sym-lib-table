@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "logic_analyzer")(type "KiCad")(uri "/home/tom/projects/logic_analyzer/logic_analyzer/logic_analyzer.kicad_sym")(options "")(descr ""))
+  (lib (name "Intel_FPGA")(type "KiCad")(uri "/home/tom/projects/logic_analyzer/intel2symgen/Intel_FPGA.kicad_sym")(options "")(descr ""))
+  (lib (name "GSB343K331HR")(type "KiCad")(uri "/home/tom/projects/logic_analyzer/logic_analyzer/Amphenol_GSB343K331HR/GSB343K331HR.kicad_sym")(options "")(descr ""))
+)
