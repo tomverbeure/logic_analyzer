@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pinplan>
+<pinplan intended_family="Cyclone II" variation_name="ddrio_in" megafunction_name="ALTDDIO_IN" specifies="all_ports">
+<global>
+<pin name="datain[15..0]" direction="input" scope="external"  />
+<pin name="inclock" direction="input" scope="external" source="clock"  />
+<pin name="dataout_h[15..0]" direction="output" scope="external"  />
+<pin name="dataout_l[15..0]" direction="output" scope="external"  />
+
+</global>
+</pinplan>
